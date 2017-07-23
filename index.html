@@ -18,8 +18,9 @@
             data-bind="click: incrementCounter,
                        attr: {src: imgSrc}"
         >
+        <h3>Nicknames</h3>
         <ul data-bind="foreach: nicknames">
-            <li data-bind="text: nickname"></li>
+            <li data-bind="text: $data"></li>
         </ul>
 
     </div>

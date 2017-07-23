@@ -4,9 +4,9 @@ var ViewModel = function() {
   this.imgSrc = ko.observable('img/434164568_fea0ad4013_z.jpg');
   this.imgAttribution = ko.observable('https://www.flickr.com/photos/big')
   this.nicknames = ko.observableArray([
-    { nickname: "TabTab" },
-    { nickname: "Mr. T" },
-    { nickname: "T-Bone" }
+    "TabTab",
+    "Mr. T",
+    "T-Bone"
   ])
 
   this.level = ko.computed(function() {
