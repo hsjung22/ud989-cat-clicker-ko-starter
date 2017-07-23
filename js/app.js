@@ -25,7 +25,7 @@ var ViewModel = function() {
 
   this.incrementCounter = function() {
     this.currentCat().clickCount(this.currentCat().clickCount() + 1);
-  };
+  }.bind(this);
 }
 
 ko.applyBindings(new ViewModel())
